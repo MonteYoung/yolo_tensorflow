@@ -203,9 +203,11 @@ def main():
     # detector.camera_detector(cap)
 
     # detect from image file
-    imname = 'test/person.jpg'
+    # imname = 'test/person.jpg'
+    imname = '/home/yang/CarND-Vehicle-Detection/test_images/test6.jpg'
     detector.image_detector(imname)
 
 
 if __name__ == '__main__':
     main()
+    exit()
